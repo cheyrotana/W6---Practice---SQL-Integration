@@ -106,7 +106,7 @@ function ArticleCard({ article, onView, onEdit, onDelete }) {
         </Link>
       </div>
       <div className="article-category">
-        Category: <strong>{article.category_name || "N/A"}</strong>
+        Category: <strong>{article.category_names || "N/A"}</strong>
       </div>
 
       <div className="article-actions">
